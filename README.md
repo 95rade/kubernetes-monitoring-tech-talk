@@ -1,7 +1,8 @@
 Best Pratices in Monitoring a Kubernetes Cluster 
 
 ## Install kube-prometheus-stack
-- create a monitoring namespace 
+- create a monitoring namespace
+`kubectl create ns monitoring`
 - add prometheus-community repo
 `helm repo add prometheus-community https://prometheus-community.github.io/helm-charts`
 `helm repo update prometheus-community`
